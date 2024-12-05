@@ -8,6 +8,8 @@ from langchain_core.output_parsers import StrOutputParser
 load_dotenv()
 os.environ["LANGCHAIN_APIKEY"] = os.getenv("LANGCHAIN_APIKEY")
 os.environ["LANGCHAIN_TRACING_V2"] = "true"
+LANGCHAIN_ENDPOINT="https://api.smith.langchain.com"
+LANGCHAIN_PROJECT="simple-gen-Ai app "
 
 # Creating the ChatPromptTemplate
 
